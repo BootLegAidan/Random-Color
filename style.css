@@ -1,0 +1,24 @@
+.color {
+  width: 100%;
+  text-align:center;
+  background: ivory;
+  border-bottom: 1px solid black;
+}
+body{
+  margin:0;
+  transition: all 1s cubic-bezier(.21,.6,.23,.72);
+}
+button{
+  margin: 5px;
+  border: 0px solid black;
+  background:#f0f0ff;
+  border-radius: 10px;
+  padding: 2.5px;
+  width: 10%;
+  filter: drop-shadow(0px 5px #e0e0ef);
+  transition: all 0.25s;
+}
+button:active{
+    filter: drop-shadow(0px 0px #e0e0ef);
+    transform: translateY(5px);
+}
